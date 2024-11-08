@@ -33,6 +33,9 @@ jobs:
             any::gt
             any::dplyr
             any::ggplot2
+            any::maps
+            any::mapproj
+            any::viridis
         
       - name: run script
-        run: Rscript -e 'print("Hello R World!")' '
+        run: Rscript -e 'print("Hello R World!")'
